@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML ET CSS</title>
+    <style>
+      .field {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+      .mandatory {
+        color: red;
+      }
+      .title {
+        text-align: center;
+      }
+      .alert {
+        background-color: rgb(172, 211, 115);
+        margin-top: 10px;
+        padding: 5px;
+        font-size: small;
+        color: grey;
+      }
+      #bouton {
+        width: 100%;
+        padding: 5px;
+        background-color: red;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: none;
+      }
+      form {
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+      }
+      input {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <form style="margin:0 auto;" action="">
+      <div>
+        <h4 class="title">Formulaire de contact</h4>
+        <div class="field">
+          <label for="">Nom <span class="mandatory">*</span></label>
+          <input type="text" placeholder="Nom" />
+        </div>
+        <div class="field">
+          <label for="">Email <span class="mandatory">*</span></label>
+          <input type="text" placeholder="Email" />
+        </div>
+        <div class="field">
+          <label for="">Sujet <span class="mandatory">*</span></label>
+          <input type="text" placeholder="Sujet" />
+        </div>
+        <div class="field">
+          <label for="">Message <span class="mandatory">*</span></label>
+          <textarea placeholder="Message..." cols="30" rows="3"></textarea>
+        </div>
+        <button id="bouton">Envoyer un message</button>
+        <div class="alert">jnjqdjqsbdjbqs squbqsbdjqsbd</div>
+        <div class="alert">jnjqdjqsbdjbqs squbqsbdjqsbd</div>
+      </div>
+    </form>
+  </body>
+</html>
