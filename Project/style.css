@@ -1,0 +1,165 @@
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  padding-top: 7px;
+}
+li a {
+  padding: 10px;
+  color: #ababab;
+  text-decoration: none;
+}
+.active {
+  color: #00b39b;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+nav {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.section_inner {
+  max-width: 1015px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+nav {
+    /* position: fixed;  */
+    background-color: white;top: 0;
+    width: 100%;
+    
+}
+.paragraph {
+  display: flex;
+  padding: 15px;
+  line-height: 1.7;
+}
+.lead__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+}
+.card {
+  height: auto;
+  width: calc(1015px / 3.4);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.card_ {
+  max-height: 250px;
+  height: 250px;
+  width: 200px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.white-card p {
+  color: #00ccb1;
+  font-size: 25px;
+ 
+}
+.white-card span {
+  color: inherit;
+  font-size: 12px;
+}
+
+.first-card {
+  background-color: #00ccb1;
+}
+.two-card {
+  background-color: #3d83df;
+}
+.three-card {
+  background-color: #1b2734;
+}
+.white-card {
+  background-color: white;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+}
+
+.main-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card p {
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 4em;
+}
+.card h1 {
+  color: white;
+}
+.card select {
+  background-color: inherit;
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+}
+
+.card img {
+  width: 30px;
+  height: 30px;
+}
+.card div:has(select) > select {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+.full_inner {
+  display: flex;
+  background-color: #25f5d951;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 15px;
+  overflow: hidden;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+.img-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+.section-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+a {
+    
+}

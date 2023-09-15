@@ -1,0 +1,20 @@
+.base > div {
+    background-color: greenyellow;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.base{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  auto;
+}
+.base > div:nth-child(1){
+    grid-column: 1/3;
+}

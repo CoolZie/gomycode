@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .flex-container {
+            background-color: beige;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        p {
+            text-align: justify;
+        }
+        .flex-container div {
+            width: 30%;
+            background-color: aqua;
+            margin: 10px;
+            padding: 10px
+        }
+       /*  header {
+            height: 100px;
+            color: white;
+            background-color:darkmagenta;
+            align-items: center;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 10px;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <h2>Je suis le header de la page</h2>
+    </header> -->
+    <div class="flex-container">
+        <div>
+            <h2>Article 1</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores voluptas nihil. Facere repellendus nemo officia nesciunt incidunt consectetur, excepturi, natus minus optio, vero nulla eos quibusdam hic possimus ipsam.
+            </p>
+        </div>
+        <div>
+            <h2>Article 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores voluptas nihil. Facere repellendus nemo officia nesciunt incidunt consectetur, excepturi, natus minus optio, vero nulla eos quibusdam hic possimus ipsam.
+            </p>
+        </div>
+        <div>
+            <h2>Article 3</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores voluptas nihil. Facere repellendus nemo officia nesciunt incidunt consectetur, excepturi, natus minus optio, vero nulla eos quibusdam hic possimus ipsam.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

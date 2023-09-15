@@ -1,0 +1,28 @@
+.box{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+.box1{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+.box2{
+    width: 100px;
+    height: 30px;
+    background-color: greenyellow;
+}
+div{
+    margin: 10px;
+}
+
+.rectangle {
+    width: 400px;
+    height: 90px;
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+    border: 15px solid black;
+    margin: 30px;
+}

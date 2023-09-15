@@ -32,6 +32,17 @@
         margin-bottom: 10px;
         border: none;
       }
+      #bouton_div {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        padding: 5px;
+        background-color: red;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: none;
+      }
       form {
         width: 400px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -43,7 +54,19 @@
     </style>
   </head>
   <body>
-    <form style="margin:0 auto;" action="">
+    <div style="display: block;">
+      <label for="">Je suis un label</label>
+    </div>
+    <div style="display: block;">
+      <label for="">Je suis un autre label</label>
+    </div>
+    <p>Je suis un label</p>
+    <p>Je suis un autre label</p>
+    <q>Je suis un citation</q>
+    <marquee>
+      <h1>Je suis un titre</h1>
+    </marquee>
+    <form style="margin: 0 auto" action="">
       <div>
         <h4 class="title">Formulaire de contact</h4>
         <div class="field">
@@ -62,8 +85,11 @@
           <label for="">Message <span class="mandatory">*</span></label>
           <textarea placeholder="Message..." cols="30" rows="3"></textarea>
         </div>
-        <button id="bouton">Envoyer un message</button>
-        <div class="alert">jnjqdjqsbdjbqs squbqsbdjqsbd</div>
+        <button onclick="alert('je suis un bouton')" id="bouton">Envoyer un message</button>
+        <div onclick="alert('je suis une div')" id="bouton_div">
+          <label for="">Envoyer un message</label>
+        </div>
+        <div class="alert">jnjqdjqsbdjbqs squbq</div>
         <div class="alert">jnjqdjqsbdjbqs squbqsbdjqsbd</div>
       </div>
     </form>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        .positon {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .positon div {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        .positon > div:nth-child(1){
+            background-color: green;
+        }
+        .positon > div:nth-child(2){
+            background-color: red;
+        }
+        .positon > div:nth-child(3){
+            background-color: blue;
+        }
+        .item2{
+            position: sticky;
+            /* top: 100px; */
+            /* right: 150px; */
+            left: 100px;
+            bottom: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="positon">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+    </div>
+</body>
+</html>
